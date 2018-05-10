@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="6dp"
+    app:cardBackgroundColor="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/relat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="7dp"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/ic_launcher_background"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/image1"
+            android:gravity="center|left"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title1"
+            android:layout_toEndOf="@+id/image1"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/image1"
+            android:layout_below="@+id/image1"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Rating"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_marginBottom="11dp"
+            android:layout_toStartOf="@+id/description"
+            android:background="@android:color/white"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="1" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

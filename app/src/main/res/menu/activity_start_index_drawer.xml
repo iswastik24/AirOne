@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search_places"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search Places" />
+        <item
+            android:id="@+id/booking"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Booking Tickets" />
+        <item
+            android:id="@+id/bus_ticket"
+            android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="Bus Tickets" />
+        <item
+            android:id="@+id/hotel_info"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="Hotels" />
+        <item
+            android:id="@+id/resturants_info"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Resturants" />
+        <item
+            android:id="@+id/weather_report"
+            android:icon="@drawable/ic_cloud_queue_black_24dp"
+            android:title="Weather Info" />
+
+        <item
+            android:id="@+id/Tickets"
+            android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="Tickets" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About" />
+    </group>
+
+
+
+</menu>

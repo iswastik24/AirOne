@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.swastikijari.airone.GetTicketDetails">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <TextView
+            android:id="@+id/bid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="35dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="booking id"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/l111"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/bid"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bid"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Source" />
+
+            <TextView
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:text="dest" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/doj11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/l111"
+            android:gravity="center"
+
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/black"
+            android:text="Date of Jr"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bdpt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/doj11"
+
+            android:layout_marginTop="50dp"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:text="Boarding pt"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/drpt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/bdpt"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="drop pt" />
+
+        <TextView
+            android:id="@+id/bname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/doj11"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="User Name" />
+
+        <TextView
+            android:id="@+id/getseats"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/drpt"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:text="Seats List" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Booking Details "
+            android:gravity="center"
+
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

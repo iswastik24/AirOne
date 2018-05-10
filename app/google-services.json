@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "396734283822",
+    "firebase_url": "https://logindemo-11857.firebaseio.com",
+    "project_id": "logindemo-11857",
+    "storage_bucket": "logindemo-11857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396734283822:android:4936f84babc81d7f",
+        "android_client_info": {
+          "package_name": "com.swastikijari.airone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396734283822-ssnkbbi5ua7ovbr9t1euc5mpb45m2pal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu21iEEM4d0c9E8AOCRdKr0XsL2DHoIDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

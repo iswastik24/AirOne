@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+    android:id="@+id/bid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:textColor="@android:color/black"
+    android:textSize="18sp"
+    android:layout_marginTop="27dp"
+    android:text="booking id" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bid"
+        android:layout_marginTop="32dp"
+        android:text="Source" />
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/s1"
+        android:layout_alignBottom="@+id/s1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:text="dest" />
+
+    <TextView
+        android:id="@+id/doj11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/s1"
+        android:layout_marginTop="48dp"
+        android:text="doj" />
+
+    <TextView
+        android:id="@+id/bdpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:text="Boarding pt" />
+
+    <TextView
+        android:id="@+id/drpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bdpt"
+        android:layout_below="@+id/bdpt"
+        android:layout_marginTop="45dp"
+        android:text="drop pt" />
+
+    <TextView
+        android:id="@+id/bname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bdpt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/getseats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bname"
+        android:layout_below="@+id/drpt"
+        android:layout_marginTop="66dp"
+        android:text="Seats" />
+</RelativeLayout>
+</android.support.v7.widget.CardView>

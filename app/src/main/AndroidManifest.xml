@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swastikijari.airone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Register" />
+        <activity android:name=".ForgetPassword" />
+        <activity android:name=".Booking" />
+        <activity android:name=".Buss_Booking" />
+        <activity android:name=".Hotel" />
+        <activity android:name=".Restaurants" />
+        <activity android:name=".Book_1" />
+        <activity android:name=".ACSleeper" />
+        <activity android:name=".NonACSleeper" />
+        <activity android:name=".CustomACSleeper" />
+        <activity android:name=".CustomACSLeeperUp" />
+        <activity android:name=".Detail_of_Booking" />
+        <activity android:name=".Boarding_point" />
+        <activity android:name=".BusInfo" />
+        <activity android:name=".RouteMap" />
+        <activity android:name=".Weather" />
+        <activity android:name=".Payment" />
+        <activity android:name=".GetTicketDetails" />
+        <activity
+            android:name=".StartIndex"
+            android:label="@string/title_activity_start_index"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

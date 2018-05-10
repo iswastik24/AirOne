@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context="com.swastikijari.airone.Register">
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regName"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regEmail"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <Button
+        android:id="@+id/reqRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Register"
+        app:layout_constraintBottom_toTopOf="@+id/regAlredy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_age" />
+
+    <TextView
+        android:id="@+id/regAlredy"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Already signed in ? Go to Login"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reqRegister"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <EditText
+        android:id="@+id/reg_age"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/reqRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regPassword"
+        app:layout_constraintVertical_bias="0.216" />
+
+    <ImageView
+        android:id="@+id/userdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/regName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+</android.support.constraint.ConstraintLayout>

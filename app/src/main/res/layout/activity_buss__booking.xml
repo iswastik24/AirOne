@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.swastikijari.airone.Buss_Booking">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_blue_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.669">
+
+            <AutoCompleteTextView
+                android:id="@+id/source"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/drawcurve"
+                android:backgroundTint="@android:color/white"
+                android:gravity="center"
+                android:hint="From \nEnter City "
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.086" />
+
+            <AutoCompleteTextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/drawcurve"
+                android:backgroundTint="@android:color/white"
+                android:gravity="center"
+                android:hint="To\nEnter City"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/source"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/date_of_jr"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/drawcurve"
+                android:backgroundTint="@android:color/white"
+                android:gravity="center"
+                android:hint="Enter Date of Journey"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/destination"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/bus_book"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/drawcurve"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:text="Search busses"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button2"
+                app:layout_constraintVertical_bias="0.434"
+                tools:ignore="UnknownId" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.228"
+            app:srcCompat="@drawable/bus">
+
+        </ImageView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

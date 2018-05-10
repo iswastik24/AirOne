@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+       
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/u1"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="left"
+                        android:layout_margin="4dp"
+                        android:text="U1" />
+
+                    <Button
+                        android:id="@+id/u3"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="right"
+                        android:text="U3" />
+
+                    <Button
+                        android:id="@+id/u2"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="right"
+                        android:layout_toStartOf="@+id/u3"
+                        android:text="U3" />
+
+                    <Button
+                        android:id="@+id/u4"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/u1"
+                        android:layout_gravity="left"
+                        android:layout_margin="4dp"
+                        android:text="U4" />
+
+                    <Button
+                        android:id="@+id/u5"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_alignStart="@+id/u2"
+                        android:layout_below="@+id/u2"
+                        android:layout_gravity="right"
+                        android:text="U5" />
+
+                    <Button
+                        android:id="@+id/u6"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/u3"
+                        android:layout_gravity="right"
+                        android:text="U6" />
+
+                    <Button
+                        android:id="@+id/u7"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/u4"
+                        android:layout_gravity="left"
+                        android:layout_margin="4dp"
+                        android:text="U7" />
+
+                    <Button
+                        android:id="@+id/u8"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/u5"
+                        android:layout_gravity="right"
+                        android:layout_toStartOf="@+id/u9"
+                        android:text="U8" />
+
+                    <Button
+                        android:id="@+id/u9"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/u6"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="right"
+                        android:text="U9" />
+
+                    <Button
+                        android:id="@+id/u10"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/u7"
+                        android:layout_gravity="left"
+                        android:layout_margin="4dp"
+                        android:text="U10" />
+
+
+                    <Button
+                        android:id="@+id/u11"
+                        android:layout_margin="4dp"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="right"
+                        android:layout_toStartOf="@+id/u12"
+                        android:text="U11" />
+
+                    <Button
+                        android:id="@+id/u12"
+                        android:layout_width="60dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="4dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="right"
+                        android:text="U12" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

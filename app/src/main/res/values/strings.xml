@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Travell Buddy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="title">
+        <item>Bangalore Palace </item>
+        <item>Lal Bagh</item>
+        <item>Tipu Sultan’s Palace </item>
+        <item>Cubbon Park</item>
+        <item>Bangalore Palace </item>
+        <item>Lal Bagh</item>
+        <item>Tipu Sultan’s Palace </item>
+        <item>Cubbon Park</item>
+
+    </string-array>
+    <string-array name="description">
+        <item>A scenic palace which bears striking resemblance to England’s Windsor Castle, Bangalore Palace is a scenic tourist hotspot with a majestic castle-like structure set amidst lush green environs.1</item>
+        <item>Lal Bagh is the most famous tourist attraction in Bangalore and is spread out over 240 acres. The botanical garden was built in the 18th century during the reign of Hyder Ali and his son Tipu Sultan</item>
+        <item>The grand summer palace of Tipu Sultan has now been converted into a museum, and it is a must-see attraction in Bangalore. Magnificent figures, paintings and other artwork adorn this palace. </item>
+        <item>This beautiful park showcases more than 6,000 species of trees and plants, along with famous statues and well-planned avenues spread out over an area of 300 acres. </item>
+        <item>A scenic palace which bears striking resemblance to England’s Windsor Castle, Bangalore Palace is a scenic tourist hotspot with a majestic castle-like structure set amidst lush green environs.1</item>
+        <item>Lal Bagh is the most famous tourist attraction in Bangalore and is spread out over 240 acres. The botanical garden was built in the 18th century during the reign of Hyder Ali and his son Tipu Sultan</item>
+        <item>The grand summer palace of Tipu Sultan has now been converted into a museum, and it is a must-see attraction in Bangalore. Magnificent figures, paintings and other artwork adorn this palace. </item>
+        <item>This beautiful park showcases more than 6,000 species of trees and plants, along with famous statues and well-planned avenues spread out over an area of 300 acres. </item>
+
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_information">Contact information</string>
+    <string name="email">Enter your Email id</string>
+    <string name="phon">Enter your phon number</string>
+    <string name="info">Personal information</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="age">Age</string>
+    <string name="title_activity_start_index">Travel Buddy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
